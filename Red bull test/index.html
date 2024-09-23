@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monaco Grand Prix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Parallax Container -->
+    <div class="parallax-container">
+        <div class="parallax-background"></div>
+
+        <div class="title-container">
+            <h1 class="monaco-title">
+                <span>Monaco</span>
+                <span>Grand</span>
+                <span>Prix</span>
+            </h1>
+        </div>
+
+        <div class="parallax-foreground"></div>
+        <div class="gradient-overlay"></div>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <div class="race-details">
+                <p class="date">
+                    <img class="icon-calendar" src="../images/calendar.png" alt="Calendar" /> 24 - 27 NOV 2023
+                </p>
+                <p class="location">
+                    <img class="monaco-flag" src="../images/monaco.png" alt="Monaco Flag" /> Monaco
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Screen Section -->
+    <div class="new-screen">
+        <div class="new-screen-content">
+            <h2 class="section-title" id="sticky-title"><span>Oracle In Practice</span></h2>
+
+            <div class="card-rail">
+
+                <!-- First Card -->
+                <a href="https://example.com/card1" target="_blank" class="card">
+                    <img src="../images/card-1.png" alt="Oracle Virtual Lap in Monza">
+                    <div class="card-info">
+                        <div class="card-icon">
+                            <img src="../images/play.png" alt="Icon 1">
+                        </div>
+                        <h3>Oracle Virtual Lap In Monza</h3>
+                        <p class="card-details">
+                            <span class="highlighted-text">Virtual Lap</span>
+                            <span class="reading-time">6 min read</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Second Card -->
+                <a href="https://example.com/card2" target="_blank" class="card">
+                    <img src="../images/card-2.png" alt="Oracle Strategy Guide">
+                    <div class="card-info">
+                        <div class="card-icon">
+                            <img src="../images/play.png" alt="Icon 2">
+                        </div>
+                        <h3>Oracle Strategy Guide</h3>
+                        <p class="card-details">
+                            <span class="highlighted-text">Oracle Strategy Guide</span>
+                            <span class="reading-time">4 min read</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Third Card -->
+                <a href="https://example.com/card3" target="_blank" class="card">
+                    <img src="../images/card-3.png" alt="Oracle Cloud Telemetry Data Checo">
+                    <div class="card-info">
+                        <div class="card-icon">
+                            <img src="../images/icon.png" alt="Icon 3">
+                        </div>
+                        <h3>Oracle Cloud Telemetry Data Checo</h3>
+                        <p class="card-details">
+                            <span class="highlighted-text">Data</span>
+                            <span class="reading-time">3 min read</span>
+                        </p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Driver Standings Section -->
+    <div class="driver-standings-screen">
+        <h2 class="section-title-standings">2023 Driver Standings</h2>
+        <div class="standings-table-container">
+            <table class="standings-table">
+                <thead>
+                    <tr>
+                        <th>POSITION</th>
+                        <th>DRIVER</th>
+                        <th>CONSTRUCTOR</th>
+                        <th>POINTS</th>
+                    </tr>
+                </thead>
+                <tbody id="standings-body">
+        
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+## Task 01 – Data Fetching & Manipulation:
+For this task, I built a table showcasing the driver standings following the 2023 Abu Dhabi Grand Prix. The data was fetched using the provided API endpoint and authentication key. The table displays the following fields:
+
+Position of the driver
+Driver Name
+Constructor Name
+Points Total
+Due to hardware limitations (unable to install Node.js), I didn’t use any JavaScript frameworks. Instead, I wrote clean and efficient vanilla JavaScript to fetch, manipulate, and dynamically display the data. I followed Red Bull Racing branding guidelines for colors and fonts.
+
+Key Improvements:
+
+Improved error handling: Added a fallback message if the API call fails, ensuring users are informed.
+Debounced scroll events: Optimized the parallax scroll effect for better performance on slower devices.
+JavaScript refactoring: Broke down logic into smaller, reusable functions for better readability and maintainability.
+Accessibility enhancements: Added more descriptive alt text and labels for improved screen reader compatibility.
+
+## Task 02 – UI Development:
+I translated the Figma designs into a fully functional UI component, including a clickable card rail for mobile and desktop views and a parallax hero section with smooth scrolling effects.
+
+Key Improvements:
+
+Optimized image loading: Planning to improve performance by using responsive srcset for various screen sizes and lazy-loading techniques.
+Reusable CSS: Refactored CSS to create reusable classes for common styles, improving maintainability.
+Responsive design: I ensured the layout adapts across different screen sizes, making the components responsive for both mobile and desktop.
+
+## How to Run the Project:
+The project requires Live Server in Visual Studio Code to run. Without it, the page won't work as expected. Here’s how to run it:
+
+Open the folder in VS Code.
+Right-click the index.html file.
+Select "Open with Live Server".
+![Live Server Instructions](./images/liveserverexample.PNG)
+Once Live Server is running, the project will be accessible in the browser with all its functionality.
+
+Additional Design Considerations:
+The designs were based on the desktop screen sizes provided in the Figma files. Instead of creating multiple screens, I combined everything into a single-page layout to simplify navigation and ensure accessibility. 
+
+
